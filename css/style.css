@@ -1,0 +1,140 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.mathhead {
+
+
+}
+.header-social {
+  overflow: hidden;
+  float: right;
+}
+li{
+  display: inline-block;
+  padding-right: 20px;
+}
+.pbar{
+  display: flex;
+  position: relative;;
+  width: 100%;
+  background-color: #233F88;
+  justify-content: center;
+}
+.pbar h3{
+	text-align: center;
+    width: 100%;
+    font-size: 45px;
+    background-color: #3F51B5;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.pbar a{
+  font-family: Roboto;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.bbar{
+ display: inline-block;
+  width: 100%;
+  margin: 0px;
+}
+h3{
+  display: inline-block;
+}
+
+
+header{
+  font-style: bold;
+  font-size: 10px
+  text-shadow: 1px 1px 0px black;
+}
+
+.nav_bar{
+
+  display: inline-block;
+  width: 100%;
+  height: 38px;
+  margin: 0px;
+}
+ .menu{
+       list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    margin: 0px;
+ }
+.menu li {
+	display:inline-block;
+	float:none;
+	margin-right: -29px;
+}
+
+.menu li a {
+	    display: block;
+    min-width: 275px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    background: #C5CAE9;
+    text-decoration: none;
+  margin: 0px;
+}
+
+.menu li:hover a {
+	background: #1A398A;
+	color: #fff;
+}
+
+.menu li:hover ul a {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+}
+.menu li:hover ul a:hover {
+	background: #19c589;
+	color: #fff;
+}
+footer {
+      background: #C5CAE9;
+    position: absolute;
+  /*  bottom: 0;*/
+    width: 100%;
+    height: 100px;
+	bottom: 0px;
+	position: relative;
+  margin: 0px;
+}
+.copyrigth p{
+  float: right;
+  padding-top: 20px;
+  padding-right: 38px;
+  overflow: hidden;
+
+}
+/*....
+table*/
+
+.tbl_class{
+	text-align: center;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+	align: center;
+}
+
+.tbl_class table{
+	box-shadow: 0px 0px 10px 5px #ccc;
+}
+
+.tbl_class th{
+	padding: 20px 75px;
+}
+
+.tbl_class td{
+	padding: 20px 75px;
+}
